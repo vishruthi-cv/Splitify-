@@ -21,9 +21,10 @@ Key Features
 Instructions:
 
 STEP 1: get started:
-   get started by pressing go on the homepage which takes you to the next page.
+   get started by pressing 'get started' on the homepage which takes you to the next page.
 
-STEP 2: Tag your squad!:
+STEP 2: Tag your squad! :
+
    <img width="1460" height="838" alt="Screenshot 2026-01-28 at 9 57 27 PM" src="https://github.com/user-attachments/assets/3c4ded9f-f6b1-4146-bcb5-82cb2333c282" />
 
    give your trip a name and add an appropriate trip name.
