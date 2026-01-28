@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 223, 205);
+    color: rgb(8, 70, 8);
+    min-height: 100vh;
+
+
+    background-image: url("./assets/background.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+
+
+
+a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(8, 70, 8);
+}
+
+
+.sign {
+    background-color: rgb(8, 70, 8);
+    color: rgb(236, 223, 205);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+}
+
+.fading-line {
+    height: 2px;
+    width: 85%;
+    margin: 20px auto;
+
+
+    background: linear-gradient(to right, transparent, rgb(11, 69, 11), transparent);
+}
+
+h1 {
+    color: rgb(11, 69, 11);
+    font-size: 5vh;
+    font-family: 'Inter', sans-serif;
+
+
+
+}
+
+
+
+.container2 {
+    border: 30px solid rgb(11, 69, 11);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 223, 205);
+    border-radius: 20px;
+
+
+}
+
+.groupName {
+    margin-top: 50px;
+    font-size: 3vh;
+    color: rgb(11, 69, 11);
+}
+
+.names {
+    margin-top: 10px;
+    font-size: 3vh;
+    color: rgb(11, 69, 11);
+}
+
+.textbox {
+    border: 2px solid rgb(11, 69, 11);
+    border-radius: 15px;
+    padding: 8px;
+    width: 25vw;
+    background-color: rgb(236, 223, 205);
+}
+
+button:hover {
+    background-color: rgb(97, 159, 97);
+    cursor: pointer;
+
+}
+
+.go {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 3vh;
+
+}
+
+.go:hover {
+    background-color: rgb(97, 159, 97);
+    cursor: pointer;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}

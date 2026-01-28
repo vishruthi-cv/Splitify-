@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="doc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+
+            <h1> <a href="homepage.html">Splitify </a></h1>
+        </div>
+
+
+
+    </header>
+    <div class="fading-line"></div>
+
+
+    <h1 class="displayTripName"> </h1>
+    <div class="wrapper">
+        <div class="container1">
+            <button class="add"> + add expenses </button>
+            <div class="container2">
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="overlay hidden">
+        <div class="modal hidden">
+
+            <form class="expenseForm">
+                <h1>Add an expense</h1>
+
+                <div class="groupName">
+                    Enter amount:<br>
+                    <input type="number" class="amountInput textbox" required>
+                </div>
+
+                <div class="names">
+                    Enter description:<br>
+                    <input type="text" class="descInput textbox" required>
+                </div>
+
+                <div>
+                    Paid by:
+                    <ul class="paidBy"></ul>
+
+                    Split among:
+                    <ul class="splitAmong"></ul>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="submit" class="save">Save</button>
+                    <button type="button" class="cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
